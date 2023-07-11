@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "vuepress starter",
   "main": "index.js",
-  "author": "zepine <c.zepine@gmail.com>",
+  "author": "vue <vue@gmail.com>",
   "license": "MIT",
   "repository": "https://github.com/zepine/yanggiri.git",
   "devDependencies": {
