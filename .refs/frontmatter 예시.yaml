@@ -1,0 +1,30 @@
+---
+title: Vue, Firebase으로 웹사이트 만들기
+description: 강좌 정리 노트
+comment: true|false
+mainImage: URL|filename|filename.ext (with quotation)
+lang: en-US
+head:
+  - - meta
+    - name: foo
+      content: bar
+  - - link
+    - rel: canonical
+      href: foobar
+### permalink 및 permalinkPattern 사용 시 sideBar의 TOC 자동 생성은 불가능. 또한, navBar의 일부 기능이 불완전해 짐.
+# permalink: /웹사이트-만들기.html 
+# date: 2021-10-06
+# permalinkPattern: :year/:month/:day/:slug.html
+sidebar: false
+layout: CustomLayout
+externalIcon: true
+editLink: true
+lastUpdated: true
+contributors: true
+tags:
+  - vue
+  - firebase
+  - setting
+---
+
+Frontmatter Reference : https://v2.vuepress.vuejs.org/reference/default-theme/frontmatter.html#all-pages

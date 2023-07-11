@@ -1,0 +1,122 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "name": "된장찌게",
+  "image": [
+    // 완성된 이미지, 사이즈별로 준비, 1x1, 4x3, 16x9 비율
+    "https://example.com/photos/1x1/photo.jpg",
+    "https://example.com/photos/4x3/photo.jpg",
+    "https://example.com/photos/16x9/photo.jpg"
+  ],
+  "author": {
+    "@type": "Person",
+    "name": "김기"
+  },
+  "datePublished": "2021-11-20",
+  "description": "이 된장찌개는 엄마가 만든 최고의 요리입니다.",
+  "prepTime": "PT20M", // P (Y/M/W/D) T (H/M/S)
+  "cookTime": "PT30M",
+  "totalTime": "PT50M",
+  "keywords": "된장, 얼큰한 된장찌개", // recipeCategory, recipeCuisine 태그는 사용하지 말 것!
+  "recipeYield": "10", // 만드는 요리의 양 (인분)
+  "recipeCategory": "찌개",
+  "recipeCuisine": "Korean",
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "calories": "270 calories" // 1인분 기준
+  },
+  "recipeIngredient": [
+    "2 cups of flour",
+    "3/4 cup white sugar",
+    "2 teaspoons baking powder",
+    "1/2 teaspoon salt",
+    "1/2 cup butter",
+    "2 eggs",
+    "3/4 cup milk"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "name": "멸치 육수 만들기",
+      "text": "멸치와 다시마 그리고 마늘을 넣고 10분간 국물을 우려냅니다.", // 단계 번호가 들어가는 것은 권장하지 않음. e.g. "text": "Step 1. Heat oven to 425°F." 
+      "url": "https://example.com/party-coffee-cake#step1",
+      "image": "https://example.com/photos/party-coffee-cake/step1.jpg"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "채소와 양념 입수",
+      "text": "미리 한입 크기로 잘라 놓은 채소와 잘 섞어 놓은 양념을 팔팔 끓는 멸치 육수에 넣어 채소가 익을 때까지 약 5분간 끓여 줍니다.",
+      "url": "https://example.com/party-coffee-cake#step2",
+      "image": "https://example.com/photos/party-coffee-cake/step2.jpg"
+    },
+    {
+      "@type": "HowToSection", // 하위 섹션을 그룹으로 묶으려면 HowToSection
+      "name": "Assemble the pie",
+      "itemListElement": [
+        {
+          "@type": "HowToStep",
+          "text": "In large bowl, gently mix filling ingredients; spoon into crust-lined pie plate."
+        },
+        {
+          "@type": "HowToStep",
+          "text": "Top with second crust. Cut slits or shapes in several places in top crust."
+        }
+      ]
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Add wet ingredients",
+      "text": "Mix in the butter, eggs, and milk.",
+      "url": "https://example.com/party-coffee-cake#step3",
+      "image": "https://example.com/photos/party-coffee-cake/step3.jpg"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Spread into pan",
+      "text": "Spread into the prepared pan.",
+      "url": "https://example.com/party-coffee-cake#step4",
+      "image": "https://example.com/photos/party-coffee-cake/step4.jpg"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Bake",
+      "text": "Bake for 30 to 35 minutes, or until firm.",
+      "url": "https://example.com/party-coffee-cake#step5",
+      "image": "https://example.com/photos/party-coffee-cake/step5.jpg"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Enjoy",
+      "text": "Allow to cool and enjoy.",
+      "url": "https://example.com/party-coffee-cake#step6",
+      "image": "https://example.com/photos/party-coffee-cake/step6.jpg"
+    }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "ratingCount": "18"
+  },
+  "video": {
+    "@type": "VideoObject",
+    "name": "How to make a Party Coffee Cake",
+    "description": "This is how you make a Party Coffee Cake.",
+    "thumbnailUrl": [
+      "https://example.com/photos/1x1/photo.jpg",
+      "https://example.com/photos/4x3/photo.jpg",
+      "https://example.com/photos/16x9/photo.jpg"
+    ],
+    "contentUrl": "http://www.example.com/video123.mp4",
+    "embedUrl": "http://www.example.com/videoplayer?video=123",
+    "uploadDate": "2018-02-05T08:00:00+08:00",
+    "duration": "PT1M33S",
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "interactionType": {
+        "@type": "WatchAction"
+      },
+      "userInteractionCount": 2347
+    },
+    "expires": "2019-02-05T08:00:00+08:00"
+  }
+}
